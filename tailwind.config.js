@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#023551", // violet indigo
-        accent: "#ffb14c", // bleu clair
+        biersibleue: "#023551", // violet indigo
+        biersiorange: "#ffb14c", // bleu clair
+        biersibelge: "#f0e3da", // Gris très clair
       },
     },
   },
