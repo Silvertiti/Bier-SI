@@ -1,0 +1,25 @@
+---
+import Header from '../components/Header.astro';
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Mon site vitrine</title>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <Header />
+
+    <main class="max-w-xl mx-auto py-16 px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">📬 Contactez-moi</h2>
+      <form class="bg-white shadow-lg p-8 rounded-lg space-y-6">
+        <input type="text" placeholder="Votre nom" class="w-full p-3 border border-gray-300 rounded" required />
+        <input type="email" placeholder="Votre email" class="w-full p-3 border border-gray-300 rounded" required />
+        <textarea placeholder="Votre message" rows="5" class="w-full p-3 border border-gray-300 rounded" required></textarea>
+        <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded hover:bg-blue-800 transition">
+          Envoyer
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
