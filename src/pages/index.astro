@@ -7,6 +7,7 @@ import "../styles/global.css";
   <head>
     <meta charset="UTF-8" />
     <title>Bier'SI</title>
+    <link rel="icon" type="image/png" href="/images/logoUniquementSansFond.png">
   </head>
   <body class="font-sans text-gray-800 bg-white">
     <Header />
@@ -37,6 +38,58 @@ import "../styles/global.css";
         </div>
       </div>
     </section>
+
+    <!-- PortFolio -->
+    <section id="portfolio" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-biersibleue mb-12">Mes Réalisations</h2>
+
+        <!-- PROJET 1 -->
+        <div class="flex flex-col md:flex-row items-center gap-10 mb-16">
+          
+          <!-- Image + bouton -->
+          <div class="w-full md:w-1/2 flex justify-center">
+            <div class="w-full max-w-[600px] border rounded-lg overflow-hidden shadow-lg bg-white">
+              <div class="aspect-[2/1] w-full">
+                <img src="/images/projet/boulangerie.png"
+                    alt="Projet Boulangerie"
+                    class="w-full h-full object-cover" />
+              </div>
+              <div class="bg-gray-100 p-5 text-center">
+                <a href="https://lien-du-projet.com" target="_blank"
+                  class="inline-block px-6 py-3 bg-biersibleue text-white font-semibold rounded hover:bg-biersiorange transition duration-300 shadow">
+                  Voir le site
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="w-full md:w-1/2 text-gray-700">
+            <h3 class="text-2xl font-bold text-biersibleue mb-4">Site vitrine pour une boulangerie artisanale locale</h3>
+            <p class="mb-4 leading-relaxed">
+              Conception d’un site vitrine moderne et responsive pour une boulangerie artisanale de quartier.
+              L’objectif : mettre en avant les produits faits maison, les horaires d’ouverture, les actualités du fournil,
+              et faciliter le contact client.
+            </p>
+            <p class="mb-4 leading-relaxed">
+              Le site a été développé sur-mesure avec <strong>Astro</strong>, <strong>Tailwind CSS</strong> et <strong>HTML</strong>,
+              avec une navigation fluide et un design chaleureux inspiré de l’univers du pain.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 text-sm text-gray-600">
+              <li>📸 Galerie photo des pains, viennoiseries et pâtisseries</li>
+              <li>🕒 Mise à jour facile des horaires et jours de fermeture</li>
+              <li>📱 Optimisation mobile & référencement local SEO</li>
+            </ul>
+            <p class="mt-4 text-sm italic text-gray-500">
+              Projet livré en 2 semaines avec documentation personnalisée pour une autonomie totale du client.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
 
     <!-- CONTACT -->
     <section id="contact" class="py-20">
